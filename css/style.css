@@ -730,6 +730,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   min-height: 100vh;
 }
+#Training{
+  background-image: url("../img/home/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+#Taxation{
+  background-image: url("../img/home/5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
 .opacity{
   background: rgba(0, 0, 0, 0.8);
   padding-top: 100px;
