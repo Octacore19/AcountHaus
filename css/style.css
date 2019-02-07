@@ -69,6 +69,16 @@ h6 {
   color: #fff;
 }
 
+.card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -742,6 +752,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   min-height: 100vh;
 }
+#Returns{
+  background-image: url("../img/home/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
 .opacity{
   background: rgba(0, 0, 0, 0.8);
   padding-top: 100px;
@@ -752,6 +768,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .opacity p, .opacity ul li{
   color: #fff;
+}
+.feature-col {
+  padding: 30px 30px 80px 30px;
+}
+.feature-col > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.feature-col h3 {
+  color: #18d26e;
+}
+
+.feature-col p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.feature-col > div > div:last-child {
+  padding-left: 20px;
+}
+
+.feature-col .feature-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  background: #18d26e;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media (max-width: 61.9em){
+  .feature-col {
+    padding-bottom: 30px;
+  }
 }
 
 /* Contact Section
