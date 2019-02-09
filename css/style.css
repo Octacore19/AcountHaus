@@ -680,12 +680,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 80px;
   margin-right: 20px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 24px;
 }
 
 #services .title a {
-  /* color: #111; */
   color: #fff;
 }
 
@@ -697,8 +696,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 20px;
   margin-left: 20px;
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  margin-bottom: 25px;
+  font-size: 24px;
 }
 #services .title2 a {
   color: #fff;
@@ -708,18 +707,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #18d26e;
 }
 #services .description2 {
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 20px;
-  line-height: 36px;
+  line-height: 48px;
   margin-bottom: 10px;
 }
 
 #services .description,
 #services ul li, p {
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
-  line-height: 36px;
+  line-height: 48px;
   margin-bottom: 10px;
 }
 #Assurance{
@@ -781,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col p {
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -805,6 +804,67 @@ body.mobile-nav-active #mobile-nav-toggle {
   .feature-col {
     padding-bottom: 30px;
   }
+}
+#Returns .single-about-content {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+#Returns .single-about-content a.more {
+  width: 130px;
+  line-height: 45px;
+  color:#292929;
+  border-width: 1px;
+  margin-top:22px;
+}
+#Returns .single-about-content a.more:hover,
+#Returns .single-about-content:hover .icon2 {
+  color:#18d26e;
+}
+#Returns .single-about-content:hover h5 a{
+  color:#18d26e;
+}
+#Returns .single-about-content:hover .icon2{
+  color:#18d26e;
+}
+#Returns .single-about-content a.more{
+  border-color:#18d26e;
+  border-style: solid;
+}
+#Returns .icon2 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  line-height: 130px;
+  border-width: 2px;
+  font-size: 36px;
+  color:#fff;
+}
+#Returns .round-border {
+  border-color:#18d26e;
+  border-style: solid;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+.tran3s{
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+       -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+ }
+
+ .ret-content h5{
+   padding: 0;
+   margin: 0;
+   line-height: 96px;
+ }
+
+ #Returns .ret-content h5 a {
+  color:#fff;
 }
 
 /* Contact Section
